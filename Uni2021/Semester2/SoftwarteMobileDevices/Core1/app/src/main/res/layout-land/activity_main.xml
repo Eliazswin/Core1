@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +16,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="160dp"
             android:layout_marginTop="280dp"
-            android:text="Score" />
+            android:text="@string/score" />
 
         <Button
             android:id="@+id/steal"
@@ -25,7 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="58dp"
             android:layout_marginTop="280dp"
-            android:text="Steal" />
+            android:text="@string/steal" />
 
         <Button
             android:id="@+id/reset"
@@ -34,7 +33,7 @@
             android:layout_marginStart="78dp"
             android:layout_marginTop="280dp"
             android:layout_marginEnd="59dp"
-            android:text="RESET" />
+            android:text="@string/reset" />
 
         <TextView
             android:id="@+id/score"

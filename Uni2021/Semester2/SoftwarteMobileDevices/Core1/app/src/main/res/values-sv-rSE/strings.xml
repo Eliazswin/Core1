@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Core1</string>
+    <string name="steal">Stjäla</string>
+    <string name="score">Göra</string>
+    <string name="reset">Återställa</string>
+</resources>
